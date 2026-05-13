@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Power BI portfolio case study for retail revenue, customer, margin, returns, and inventory analytics."
+    >
+    <title>Retail Revenue and Customer Insights | Power BI Portfolio Project</title>
+    <link rel="preload" href="assets/dashboard-preview.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <img
+        class="hero__image"
+        src="assets/dashboard-preview.png"
+        alt="Dashboard preview for Retail Revenue and Customer Insights"
+      >
+      <div class="hero__scrim"></div>
+      <nav class="nav" aria-label="Project links">
+        <a href="#insights">Insights</a>
+        <a href="#model">Model</a>
+        <a href="#deliverables">Deliverables</a>
+        <a href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project">GitHub</a>
+      </nav>
+      <section class="hero__content" aria-labelledby="page-title">
+        <p class="eyebrow">Power BI Portfolio Case Study</p>
+        <h1 id="page-title">Retail Revenue and Customer Insights</h1>
+        <p class="hero__summary">
+          A complete analytics project for a fictional Canadian outdoor retailer, covering revenue,
+          margin, returns, customer segments, campaign performance, and inventory risk.
+        </p>
+        <div class="hero__actions" aria-label="Primary actions">
+          <a class="button button--primary" href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project#readme">View Project README</a>
+          <a class="button button--secondary" href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project/blob/main/docs/report_blueprint.md">Report Blueprint</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="metrics" aria-label="Project metrics">
+        <div>
+          <span>Net Sales</span>
+          <strong>CAD 944K</strong>
+        </div>
+        <div>
+          <span>Gross Margin</span>
+          <strong>54.7%</strong>
+        </div>
+        <div>
+          <span>Sales Rows</span>
+          <strong>5,600</strong>
+        </div>
+        <div>
+          <span>Return Rate</span>
+          <strong>4.8%</strong>
+        </div>
+      </section>
+
+      <section id="insights" class="section">
+        <div class="section__intro">
+          <p class="eyebrow">Executive Readout</p>
+          <h2>Key insights from the model</h2>
+        </div>
+        <div class="insight-grid">
+          <article>
+            <h3>Revenue Quality</h3>
+            <p>
+              Net sales reached CAD 944K with CAD 517K in gross profit, producing a 54.7%
+              gross margin across the three-year dataset.
+            </p>
+          </article>
+          <article>
+            <h3>Channel Strength</h3>
+            <p>
+              The National ecommerce channel is the largest regional contributor, generating
+              CAD 311K in net sales.
+            </p>
+          </article>
+          <article>
+            <h3>Product Mix</h3>
+            <p>
+              Accessories leads categories at CAD 253K, while Compact Tent is the strongest
+              individual product at CAD 116K.
+            </p>
+          </article>
+          <article>
+            <h3>Operational Risk</h3>
+            <p>
+              Returns total CAD 45.6K, with Size/Fit as the top reason. One product-store
+              combination sits below reorder point.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="model" class="section section--split">
+        <div class="section__intro">
+          <p class="eyebrow">Semantic Model</p>
+          <h2>Built like an analyst project, not a sample file</h2>
+          <p>
+            The repo includes fact and dimension tables, DAX measures, Power Query typing,
+            SQL validation, and report design notes so the work can be reviewed end to end.
+          </p>
+        </div>
+        <div class="model-list" aria-label="Included project components">
+          <a href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project/blob/main/data/dataset_summary.json">Dataset summary</a>
+          <a href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project/blob/main/dax/measures.dax">DAX measures</a>
+          <a href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project/blob/main/powerquery/queries.m">Power Query script</a>
+          <a href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project/blob/main/sql/validation_queries.sql">SQL validation queries</a>
+          <a href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project/blob/main/docs/model_design.md">Model design</a>
+          <a href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project/blob/main/docs/data_dictionary.md">Data dictionary</a>
+        </div>
+      </section>
+
+      <section id="deliverables" class="section">
+        <div class="section__intro">
+          <p class="eyebrow">Deliverables</p>
+          <h2>Portfolio-ready artifacts</h2>
+        </div>
+        <div class="deliverables">
+          <article>
+            <h3>Dashboard Preview</h3>
+            <p>Generated from the source CSVs and shown at the top of this hosted page.</p>
+          </article>
+          <article>
+            <h3>Power BI Build Guide</h3>
+            <p>Page-by-page report blueprint with recommended visuals and business questions.</p>
+          </article>
+          <article>
+            <h3>Final PBIX Slot</h3>
+            <p>The deliverables folder is ready for the Power BI Desktop file once exported.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Retail Revenue and Customer Insights</span>
+      <a href="https://github.com/chelakafernando102/PowerBi-Portfolio-Project">View source on GitHub</a>
+    </footer>
+  </body>
+</html>
