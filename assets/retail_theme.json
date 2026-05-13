@@ -1,0 +1,44 @@
+{
+  "name": "Retail Portfolio Theme",
+  "dataColors": [
+    "#0F766E",
+    "#2563EB",
+    "#F59E0B",
+    "#DC2626",
+    "#7C3AED",
+    "#16A34A",
+    "#64748B",
+    "#DB2777"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#111827",
+  "tableAccent": "#0F766E",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#111827"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#374151"
+              }
+            },
+            "fontSize": 10
+          }
+        ]
+      }
+    }
+  }
+}
+

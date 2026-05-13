@@ -1,0 +1,143 @@
+-- Create a blank table named Measures, then add these measures.
+
+Total Orders =
+DISTINCTCOUNT ( fact_sales[order_id] )
+
+Units Sold =
+SUM ( fact_sales[quantity] )
+
+Gross Sales =
+SUM ( fact_sales[gross_sales] )
+
+Net Sales =
+SUM ( fact_sales[net_sales] )
+
+Total Cost =
+SUM ( fact_sales[total_cost] )
+
+Gross Profit =
+[Net Sales] - [Total Cost]
+
+Gross Margin % =
+DIVIDE ( [Gross Profit], [Net Sales] )
+
+Average Order Value =
+DIVIDE ( [Net Sales], [Total Orders] )
+
+Average Selling Price =
+DIVIDE ( [Net Sales], [Units Sold] )
+
+Discount Amount =
+[Gross Sales] - [Net Sales]
+
+Discount Rate =
+DIVIDE ( [Discount Amount], [Gross Sales] )
+
+Return Amount =
+SUM ( fact_returns[return_amount] )
+
+Return Amount By Return Date =
+CALCULATE (
+    [Return Amount],
+    USERELATIONSHIP ( dim_date[date], fact_returns[return_date] )
+)
+
+Returned Units =
+SUM ( fact_returns[returned_quantity] )
+
+Return Rate % =
+DIVIDE ( [Return Amount], [Net Sales] )
+
+Net Sales After Returns =
+[Net Sales] - [Return Amount]
+
+Customer Count =
+DISTINCTCOUNT ( dim_customer[customer_id] )
+
+Buying Customers =
+DISTINCTCOUNT ( fact_sales[customer_id] )
+
+Orders Per Customer =
+DIVIDE ( [Total Orders], [Buying Customers] )
+
+Sales Per Customer =
+DIVIDE ( [Net Sales], [Buying Customers] )
+
+Campaign Spend =
+SUM ( dim_campaign[budget] )
+
+Campaign ROAS =
+DIVIDE ( [Net Sales], [Campaign Spend] )
+
+Inventory Units On Hand =
+SUM ( fact_inventory_snapshot[on_hand_units] )
+
+Inventory Target Units =
+SUM ( fact_inventory_snapshot[target_stock_units] )
+
+Reorder Point Units =
+SUM ( fact_inventory_snapshot[reorder_point] )
+
+Inventory Gap To Target =
+[Inventory Target Units] - [Inventory Units On Hand]
+
+Products Below Reorder Point =
+COUNTROWS (
+    FILTER (
+        fact_inventory_snapshot,
+        fact_inventory_snapshot[on_hand_units] < fact_inventory_snapshot[reorder_point]
+    )
+)
+
+Net Sales YTD =
+TOTALYTD ( [Net Sales], dim_date[date] )
+
+Net Sales PY =
+CALCULATE ( [Net Sales], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+
+Net Sales YoY Change =
+[Net Sales] - [Net Sales PY]
+
+Net Sales YoY % =
+DIVIDE ( [Net Sales YoY Change], [Net Sales PY] )
+
+Gross Profit PY =
+CALCULATE ( [Gross Profit], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+
+Gross Profit YoY % =
+DIVIDE ( [Gross Profit] - [Gross Profit PY], [Gross Profit PY] )
+
+Return Amount PY =
+CALCULATE ( [Return Amount], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+
+Return Amount YoY % =
+DIVIDE ( [Return Amount] - [Return Amount PY], [Return Amount PY] )
+
+Selected Period Label =
+VAR MinDate = MIN ( dim_date[date] )
+VAR MaxDate = MAX ( dim_date[date] )
+RETURN
+FORMAT ( MinDate, "MMM d, yyyy" ) & " to " & FORMAT ( MaxDate, "MMM d, yyyy" )
+
+Top Category By Net Sales =
+VAR RankedCategories =
+    TOPN (
+        1,
+        SUMMARIZE (
+            dim_product,
+            dim_product[category],
+            "CategorySales", [Net Sales]
+        ),
+        [CategorySales],
+        DESC
+    )
+RETURN
+CONCATENATEX ( RankedCategories, dim_product[category], ", " )
+
+Margin Health =
+SWITCH (
+    TRUE (),
+    [Gross Margin %] >= 0.55, "Strong",
+    [Gross Margin %] >= 0.45, "Watch",
+    "Needs Attention"
+)
