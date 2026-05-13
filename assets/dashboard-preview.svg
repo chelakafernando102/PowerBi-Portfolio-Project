@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Retail Revenue and Customer Insights dashboard preview">
+  <style>
+    .bg { fill: #F8FAFC; }
+    .panel { fill: #FFFFFF; stroke: #E5E7EB; stroke-width: 1; filter: drop-shadow(0 10px 24px rgba(15, 23, 42, 0.06)); }
+    .title { fill: #111827; font: 700 30px Segoe UI, Arial, sans-serif; }
+    .subtitle { fill: #64748B; font: 400 14px Segoe UI, Arial, sans-serif; }
+    .panel-title { fill: #111827; font: 700 16px Segoe UI, Arial, sans-serif; }
+    .kpi-label { fill: #64748B; font: 600 12px Segoe UI, Arial, sans-serif; text-transform: uppercase; }
+    .kpi-value { fill: #111827; font: 700 28px Segoe UI, Arial, sans-serif; }
+    .small { fill: #64748B; font: 400 12px Segoe UI, Arial, sans-serif; }
+    .axis { fill: #475569; font: 600 12px Segoe UI, Arial, sans-serif; }
+    .grid { stroke: #E5E7EB; stroke-width: 1; }
+  </style>
+  <rect width="1200" height="720" class="bg"/>
+  <text x="44" y="50" class="title">Retail Revenue and Customer Insights</text>
+  <text x="44" y="76" class="subtitle">Executive Overview | Synthetic Canadian outdoor retail dataset | 2023-2025</text>
+  
+    <g>
+      <rect x="44" y="108" width="208" height="104" rx="14" class="panel"/>
+      <rect x="44" y="108" width="6" height="104" rx="3" fill="#0F766E"/>
+      <text x="66" y="142" class="kpi-label">Net Sales</text>
+      <text x="66" y="176" class="kpi-value">CA$944K</text>
+      <text x="66" y="198" class="small">5,600 orders</text>
+    </g>
+  
+    <g>
+      <rect x="272" y="108" width="208" height="104" rx="14" class="panel"/>
+      <rect x="272" y="108" width="6" height="104" rx="3" fill="#2563EB"/>
+      <text x="294" y="142" class="kpi-label">Gross Profit</text>
+      <text x="294" y="176" class="kpi-value">CA$517K</text>
+      <text x="294" y="198" class="small">54.7% margin</text>
+    </g>
+  
+    <g>
+      <rect x="500" y="108" width="208" height="104" rx="14" class="panel"/>
+      <rect x="500" y="108" width="6" height="104" rx="3" fill="#DC2626"/>
+      <text x="522" y="142" class="kpi-label">Return Amount</text>
+      <text x="522" y="176" class="kpi-value">CA$46K</text>
+      <text x="522" y="198" class="small">4.8% of sales</text>
+    </g>
+  
+    <g>
+      <rect x="728" y="108" width="208" height="104" rx="14" class="panel"/>
+      <rect x="728" y="108" width="6" height="104" rx="3" fill="#F59E0B"/>
+      <text x="750" y="142" class="kpi-label">Units Sold</text>
+      <text x="750" y="176" class="kpi-value">10,308</text>
+      <text x="750" y="198" class="small">1 items below reorder</text>
+    </g>
+  
+    <g>
+      <rect x="956" y="108" width="200" height="104" rx="14" class="panel"/>
+      <rect x="956" y="108" width="6" height="104" rx="3" fill="#7C3AED"/>
+      <text x="978" y="142" class="kpi-label">Top Region</text>
+      <text x="978" y="176" class="kpi-value">National</text>
+      <text x="978" y="198" class="small">CA$311K net sales</text>
+    </g>
+  
+    <g>
+      <rect x="44" y="244" width="668" height="266" rx="14" class="panel"/>
+      <text x="62" y="276" class="panel-title">Net Sales Trend</text>
+      <text x="62" y="298" class="small">Monthly net sales, 2023-2025</text>
+      <line x1="90" y1="308" x2="682" y2="308" class="grid"/><line x1="90" y1="362" x2="682" y2="362" class="grid"/><line x1="90" y1="416" x2="682" y2="416" class="grid"/><line x1="90" y1="470" x2="682" y2="470" class="grid"/>
+      <path d="M 90.0 428.1 L 106.9 456.6 L 123.8 464.9 L 140.7 444.4 L 157.7 448.9 L 174.6 461.4 L 191.5 461.6 L 208.4 445.5 L 225.3 470.0 L 242.2 399.2 L 259.1 405.3 L 276.1 431.8 L 293.0 442.1 L 309.9 454.7 L 326.8 433.4 L 343.7 419.7 L 360.6 401.7 L 377.5 413.5 L 394.5 425.3 L 411.4 434.9 L 428.3 408.3 L 445.2 397.8 L 462.1 377.9 L 479.0 319.6 L 495.9 420.3 L 512.9 467.3 L 529.8 422.1 L 546.7 403.4 L 563.6 408.1 L 580.5 458.6 L 597.4 391.8 L 614.3 384.0 L 631.3 423.5 L 648.2 402.3 L 665.1 308.0 L 682.0 321.3 L 682.0 470.0 L 90.0 470.0 Z" fill="#0F766E" opacity="0.13"/>
+      <path d="M 90.0 428.1 L 106.9 456.6 L 123.8 464.9 L 140.7 444.4 L 157.7 448.9 L 174.6 461.4 L 191.5 461.6 L 208.4 445.5 L 225.3 470.0 L 242.2 399.2 L 259.1 405.3 L 276.1 431.8 L 293.0 442.1 L 309.9 454.7 L 326.8 433.4 L 343.7 419.7 L 360.6 401.7 L 377.5 413.5 L 394.5 425.3 L 411.4 434.9 L 428.3 408.3 L 445.2 397.8 L 462.1 377.9 L 479.0 319.6 L 495.9 420.3 L 512.9 467.3 L 529.8 422.1 L 546.7 403.4 L 563.6 408.1 L 580.5 458.6 L 597.4 391.8 L 614.3 384.0 L 631.3 423.5 L 648.2 402.3 L 665.1 308.0 L 682.0 321.3" fill="none" stroke="#0F766E" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="682.0" cy="321.3" r="6" fill="#0F766E"/>
+      <text x="90" y="498" class="axis">Jan 2023</text>
+      <text x="620" y="498" class="axis">Dec 2025</text>
+    </g>
+  
+    <g>
+      <rect x="736" y="244" width="420" height="266" rx="14" class="panel"/>
+      <text x="754" y="276" class="panel-title">Sales by Category</text>
+      
+      <text x="754" y="324" class="axis">Accessories</text>
+      <rect x="876" y="306" width="176.0" height="25" rx="6" fill="#2563EB" opacity="0.95"/>
+      <text x="1138" y="324" text-anchor="end" class="small">CA$253K</text>
+      <text x="754" y="365" class="axis">Equipment</text>
+      <rect x="876" y="347" width="173.7" height="25" rx="6" fill="#2563EB" opacity="0.87"/>
+      <text x="1138" y="365" text-anchor="end" class="small">CA$250K</text>
+      <text x="754" y="406" class="axis">Apparel</text>
+      <rect x="876" y="388" width="170.4" height="25" rx="6" fill="#2563EB" opacity="0.7899999999999999"/>
+      <text x="1138" y="406" text-anchor="end" class="small">CA$245K</text>
+      <text x="754" y="447" class="axis">Footwear</text>
+      <rect x="876" y="429" width="136.9" height="25" rx="6" fill="#2563EB" opacity="0.71"/>
+      <text x="1138" y="447" text-anchor="end" class="small">CA$197K</text>
+    </g>
+  
+    <g>
+      <rect x="44" y="532" width="532" height="164" rx="14" class="panel"/>
+      <text x="62" y="564" class="panel-title">Sales by Region</text>
+      
+      <text x="62" y="612" class="axis">National</text>
+      <rect x="184" y="594" width="288.0" height="20" rx="6" fill="#0F766E" opacity="0.95"/>
+      <text x="558" y="612" text-anchor="end" class="small">CA$311K</text>
+      <text x="62" y="643" class="axis">East</text>
+      <rect x="184" y="625" width="171.6" height="20" rx="6" fill="#0F766E" opacity="0.87"/>
+      <text x="558" y="643" text-anchor="end" class="small">CA$185K</text>
+      <text x="62" y="674" class="axis">Prairies</text>
+      <rect x="184" y="656" width="163.4" height="20" rx="6" fill="#0F766E" opacity="0.7899999999999999"/>
+      <text x="558" y="674" text-anchor="end" class="small">CA$176K</text>
+    </g>
+  <g>
+    <rect x="604" y="532" width="552" height="164" rx="14" class="panel"/>
+    <text x="622" y="564" class="panel-title">Operational Watchlist</text>
+    <text x="622" y="596" class="axis">Top product: Compact Tent</text>
+    <text x="622" y="620" class="small">CA$116K net sales from the leading SKU</text>
+    <text x="622" y="650" class="axis">Leading return reason: Size/Fit</text>
+    <text x="622" y="674" class="small">CA$13K returned revenue tied to this reason</text>
+  </g>
+</svg>
