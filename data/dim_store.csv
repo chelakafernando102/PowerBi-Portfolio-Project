@@ -1,0 +1,9 @@
+store_id,store_name,region,province,city,channel_type,opened_date
+S001,Toronto Eaton Centre,East,ON,Toronto,Retail,2018-04-10
+S002,Halifax Waterfront,Atlantic,NS,Halifax,Retail,2019-06-18
+S003,Vancouver Robson,West,BC,Vancouver,Retail,2017-09-03
+S004,Calgary Market,Prairies,AB,Calgary,Retail,2020-02-14
+S005,Montreal Sainte-Catherine,Quebec,QC,Montreal,Retail,2018-11-23
+S006,Ottawa Rideau,East,ON,Ottawa,Retail,2021-03-19
+S007,Edmonton Whyte,Prairies,AB,Edmonton,Retail,2021-08-05
+S008,Online Store,National,NA,Digital,Ecommerce,2016-01-01

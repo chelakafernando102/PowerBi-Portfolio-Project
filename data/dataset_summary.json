@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-13T17:47:55.143Z",
+  "rows": {
+    "dim_date": 1096,
+    "dim_store": 8,
+    "dim_product": 18,
+    "dim_customer": 720,
+    "dim_campaign": 11,
+    "fact_sales": 5600,
+    "fact_returns": 311,
+    "fact_inventory_snapshot": 144
+  },
+  "net_sales": 944264.45,
+  "returns_amount": 45598.75
+}

@@ -1,0 +1,12 @@
+campaign_id,campaign_name,campaign_type,start_date,end_date,budget
+C000,No Campaign,Organic,2023-01-01,2025-12-31,0
+C101,Spring Refresh,Paid Social,2023-03-01,2023-04-30,42000
+C102,Summer Trail,Search,2023-06-01,2023-07-31,55000
+C103,Holiday Gear Up,Email,2023-11-01,2023-12-31,39000
+C201,Member Days,Email,2024-02-01,2024-02-29,18000
+C202,Outdoor Season,Paid Social,2024-05-01,2024-06-30,64000
+C203,Back to Routine,Search,2024-08-15,2024-09-30,47000
+C204,Peak Holiday,Paid Social,2024-11-01,2024-12-31,76000
+C301,New Year Movement,Search,2025-01-02,2025-02-15,52000
+C302,Spring Layers,Email,2025-03-10,2025-04-25,31000
+C303,Adventure Sale,Paid Social,2025-06-01,2025-07-20,69000

@@ -1,0 +1,721 @@
+customer_id,customer_name,segment,province,age_band,signup_date,acquisition_channel
+CU0001,Leo Moore,At Risk,QC,35-44,2023-10-04,Organic Search
+CU0002,Noah Clark,Active,BC,45-54,2022-07-29,Paid Social
+CU0003,Ava Wilson,Active,ON,55+,2022-08-25,In Store
+CU0004,Olivia Martin,Active,NS,25-34,2022-07-31,In Store
+CU0005,Owen Garcia,Loyal,NS,25-34,2022-04-23,Organic Search
+CU0006,Ethan Anderson,Active,ON,35-44,2023-07-12,Organic Search
+CU0007,Grace Walker,Active,QC,45-54,2022-09-06,Paid Social
+CU0008,Logan Thomas,At Risk,ON,35-44,2022-06-17,Referral
+CU0009,Liam Walker,At Risk,ON,45-54,2023-04-17,Organic Search
+CU0010,Isla Walker,Loyal,ON,25-34,2023-02-28,Paid Social
+CU0011,Mason Singh,Active,ON,25-34,2023-08-04,Email
+CU0012,Leo Taylor,Active,AB,25-34,2022-10-07,Paid Social
+CU0013,Ethan Hall,At Risk,NB,35-44,2023-04-04,In Store
+CU0014,Logan Taylor,At Risk,ON,55+,2022-01-28,Referral
+CU0015,Olivia Thomas,New,ON,25-34,2024-06-12,Paid Social
+CU0016,Ava Anderson,Active,PE,35-44,2024-04-19,Referral
+CU0017,Leo Taylor,New,ON,45-54,2023-05-28,Referral
+CU0018,Logan Young,At Risk,QC,35-44,2024-09-16,Referral
+CU0019,Jacob Brown,Loyal,AB,18-24,2022-03-01,In Store
+CU0020,Olivia Anderson,New,BC,25-34,2023-05-06,Email
+CU0021,Noah Wilson,Active,ON,35-44,2022-03-18,Paid Social
+CU0022,Olivia Martin,Loyal,AB,25-34,2024-12-03,In Store
+CU0023,Ella Moore,Active,AB,25-34,2024-08-23,Organic Search
+CU0024,Lucas Lee,Loyal,ON,35-44,2022-09-13,Referral
+CU0025,Mason Martin,Loyal,QC,35-44,2022-11-16,Referral
+CU0026,Owen Young,Loyal,ON,55+,2024-01-20,Organic Search
+CU0027,Ella Singh,Active,BC,18-24,2023-10-07,Referral
+CU0028,Henry Thomas,Active,BC,18-24,2022-09-07,Email
+CU0029,Noah Patel,Loyal,NS,55+,2023-09-18,Referral
+CU0030,Chloe Walker,Loyal,ON,45-54,2022-05-11,Organic Search
+CU0031,Jacob Anderson,Loyal,NB,45-54,2024-01-15,Referral
+CU0032,Ethan Lee,Active,QC,25-34,2023-05-03,Organic Search
+CU0033,Chloe Thomas,New,ON,25-34,2023-04-09,Organic Search
+CU0034,Amelia Garcia,New,PE,18-24,2024-06-11,In Store
+CU0035,Olivia Martin,Loyal,BC,25-34,2022-10-10,Organic Search
+CU0036,Ava Walker,New,QC,25-34,2024-11-18,Paid Social
+CU0037,Isla Singh,Loyal,QC,35-44,2024-10-05,In Store
+CU0038,Liam Moore,New,QC,25-34,2022-02-14,In Store
+CU0039,Owen Patel,New,ON,45-54,2024-02-02,Organic Search
+CU0040,Chloe Lee,Active,PE,45-54,2023-03-02,Organic Search
+CU0041,Ella Young,New,BC,25-34,2022-03-09,In Store
+CU0042,Aria Young,Active,ON,35-44,2023-10-02,In Store
+CU0043,Chloe Taylor,New,ON,18-24,2023-01-14,Referral
+CU0044,Chloe Lee,Loyal,AB,25-34,2024-08-11,Organic Search
+CU0045,Sophia Brown,New,BC,18-24,2023-02-17,Referral
+CU0046,Mason Walker,Active,BC,35-44,2023-01-25,In Store
+CU0047,Mia Taylor,New,AB,35-44,2022-10-13,Paid Social
+CU0048,Chloe Young,Active,BC,45-54,2024-12-23,Paid Social
+CU0049,Olivia Brown,Active,NS,25-34,2023-03-05,In Store
+CU0050,Leo Clark,At Risk,ON,35-44,2023-01-12,Referral
+CU0051,Mason Martin,Loyal,QC,45-54,2022-07-12,Referral
+CU0052,Mia Patel,New,AB,45-54,2022-11-18,Organic Search
+CU0053,Jacob Moore,New,BC,18-24,2024-05-25,Email
+CU0054,Lucas Garcia,At Risk,NS,25-34,2024-03-09,Referral
+CU0055,Lucas Martin,Active,NS,55+,2022-08-21,Referral
+CU0056,Amelia Chen,New,AB,55+,2022-11-22,Email
+CU0057,Amelia Walker,New,NS,35-44,2023-05-16,Email
+CU0058,Lucas Young,Active,NS,35-44,2022-07-28,Organic Search
+CU0059,Noah Hall,Loyal,QC,35-44,2022-03-13,Paid Social
+CU0060,Lucas Clark,Active,ON,25-34,2022-09-23,Organic Search
+CU0061,Lucas Singh,Loyal,AB,18-24,2023-09-03,In Store
+CU0062,Chloe Wilson,Active,NS,25-34,2024-02-23,Email
+CU0063,Isla Brown,Active,QC,35-44,2023-11-25,In Store
+CU0064,Liam Lee,Loyal,ON,55+,2024-10-03,Email
+CU0065,Chloe Clark,Loyal,ON,45-54,2023-10-18,Paid Social
+CU0066,Amelia Martin,New,QC,45-54,2023-05-11,Email
+CU0067,Lucas Taylor,At Risk,BC,25-34,2023-01-11,Email
+CU0068,Amelia Taylor,New,AB,25-34,2022-11-19,Email
+CU0069,Ella Hall,Active,ON,25-34,2024-12-25,Email
+CU0070,Logan Brown,Active,QC,55+,2023-03-17,Organic Search
+CU0071,Leo Patel,Active,ON,55+,2023-12-08,Organic Search
+CU0072,Aria Brown,New,ON,45-54,2024-07-16,Paid Social
+CU0073,Henry Patel,Active,ON,45-54,2023-05-09,In Store
+CU0074,Grace Taylor,Active,ON,55+,2024-12-26,In Store
+CU0075,Noah Lee,New,AB,45-54,2023-04-04,Organic Search
+CU0076,Liam Thomas,Loyal,QC,35-44,2024-05-03,Referral
+CU0077,Logan Brown,At Risk,AB,45-54,2023-05-15,Paid Social
+CU0078,Leo Taylor,Active,QC,25-34,2024-08-06,Referral
+CU0079,Henry Patel,New,ON,35-44,2022-10-16,Email
+CU0080,Noah Martin,New,QC,35-44,2023-08-09,Email
+CU0081,Isla Taylor,Active,QC,25-34,2023-07-04,Referral
+CU0082,Mason Martin,Active,QC,35-44,2023-01-04,In Store
+CU0083,Logan Singh,New,AB,45-54,2024-10-10,Organic Search
+CU0084,Lucas Singh,Active,ON,25-34,2022-11-10,Organic Search
+CU0085,Lucas Moore,At Risk,BC,35-44,2024-08-26,Referral
+CU0086,Leo Young,Active,QC,25-34,2023-05-09,Email
+CU0087,Amelia Taylor,New,BC,25-34,2022-12-18,Referral
+CU0088,Aria Wilson,Active,BC,35-44,2022-12-16,Paid Social
+CU0089,Aria Moore,At Risk,AB,45-54,2022-08-24,Paid Social
+CU0090,Sophia Clark,At Risk,ON,35-44,2023-09-16,Email
+CU0091,Owen Singh,Loyal,ON,25-34,2024-10-04,Email
+CU0092,Amelia Chen,New,QC,18-24,2023-06-16,Paid Social
+CU0093,Henry Taylor,New,AB,45-54,2024-11-28,Organic Search
+CU0094,Mia Hall,At Risk,QC,35-44,2024-07-13,Email
+CU0095,Lucas Young,Active,ON,25-34,2023-05-04,In Store
+CU0096,Ava Walker,Active,QC,35-44,2022-06-04,Organic Search
+CU0097,Leo Taylor,Loyal,ON,35-44,2024-02-28,Referral
+CU0098,Ethan Lee,New,QC,25-34,2022-04-29,In Store
+CU0099,Chloe Walker,Active,ON,45-54,2022-06-11,Referral
+CU0100,Ethan Young,Active,QC,18-24,2022-10-04,Organic Search
+CU0101,Lucas Garcia,New,NB,55+,2024-08-12,In Store
+CU0102,Chloe Garcia,Active,BC,25-34,2024-12-09,Paid Social
+CU0103,Noah Taylor,Active,AB,35-44,2022-05-03,Paid Social
+CU0104,Olivia Walker,Active,ON,25-34,2023-09-29,Referral
+CU0105,Lucas Young,Active,QC,18-24,2022-03-01,In Store
+CU0106,Noah Young,New,BC,18-24,2022-09-20,Organic Search
+CU0107,Ava Young,Active,AB,55+,2023-02-06,Email
+CU0108,Noah Chen,At Risk,ON,25-34,2022-05-12,In Store
+CU0109,Noah Walker,Loyal,AB,25-34,2023-06-23,Organic Search
+CU0110,Henry Chen,New,AB,45-54,2024-03-28,Paid Social
+CU0111,Noah Garcia,New,ON,45-54,2024-03-23,Email
+CU0112,Leo Chen,Active,BC,45-54,2022-08-23,Organic Search
+CU0113,Grace Walker,Active,NB,35-44,2024-12-06,Paid Social
+CU0114,Olivia Brown,Active,BC,25-34,2023-06-18,Paid Social
+CU0115,Logan Patel,New,NB,45-54,2024-03-19,Referral
+CU0116,Chloe Martin,Active,BC,35-44,2022-01-28,Email
+CU0117,Ethan Singh,New,NB,25-34,2022-12-17,Paid Social
+CU0118,Aria Hall,Loyal,BC,18-24,2023-07-05,Email
+CU0119,Amelia Lee,Active,BC,55+,2024-08-19,Referral
+CU0120,Noah Singh,At Risk,AB,35-44,2022-10-20,Email
+CU0121,Isla Garcia,Loyal,AB,25-34,2023-01-13,Organic Search
+CU0122,Ava Young,Loyal,QC,45-54,2024-05-12,Paid Social
+CU0123,Noah Garcia,Active,AB,35-44,2022-10-31,Paid Social
+CU0124,Isla Anderson,Loyal,AB,35-44,2023-02-26,Paid Social
+CU0125,Noah Thomas,New,ON,35-44,2024-07-08,Email
+CU0126,Sophia Anderson,New,AB,25-34,2023-04-04,Paid Social
+CU0127,Ava Thomas,Active,NB,25-34,2023-04-02,In Store
+CU0128,Grace Singh,Active,NB,35-44,2023-10-16,In Store
+CU0129,Liam Walker,New,ON,25-34,2022-02-11,Referral
+CU0130,Ava Garcia,Active,ON,25-34,2023-06-17,Referral
+CU0131,Henry Anderson,Loyal,ON,35-44,2023-02-03,Paid Social
+CU0132,Chloe Patel,At Risk,ON,55+,2023-06-02,Paid Social
+CU0133,Sophia Brown,Active,ON,25-34,2023-06-23,In Store
+CU0134,Jacob Hall,Loyal,AB,25-34,2023-11-08,Email
+CU0135,Henry Brown,Active,BC,35-44,2024-09-13,Referral
+CU0136,Owen Chen,Active,ON,25-34,2024-12-01,Organic Search
+CU0137,Grace Martin,Active,QC,45-54,2023-05-30,In Store
+CU0138,Grace Moore,Loyal,AB,55+,2022-05-27,Paid Social
+CU0139,Mia Wilson,New,BC,25-34,2022-12-21,Referral
+CU0140,Logan Martin,Active,QC,25-34,2022-05-04,Paid Social
+CU0141,Logan Clark,At Risk,ON,35-44,2022-08-14,Organic Search
+CU0142,Leo Brown,New,PE,35-44,2022-06-02,Referral
+CU0143,Olivia Anderson,Active,AB,45-54,2024-08-19,Referral
+CU0144,Ethan Brown,New,BC,18-24,2024-01-17,In Store
+CU0145,Olivia Chen,Active,NB,45-54,2023-12-03,In Store
+CU0146,Owen Thomas,At Risk,BC,25-34,2022-04-23,Referral
+CU0147,Jacob Chen,Active,PE,45-54,2022-03-13,Organic Search
+CU0148,Grace Patel,Active,ON,35-44,2024-01-22,Email
+CU0149,Isla Moore,Loyal,AB,55+,2023-06-20,Paid Social
+CU0150,Grace Garcia,Loyal,ON,25-34,2024-02-11,Organic Search
+CU0151,Ethan Martin,Active,BC,45-54,2022-12-18,Paid Social
+CU0152,Isla Martin,At Risk,AB,55+,2023-04-24,Paid Social
+CU0153,Sophia Garcia,New,QC,35-44,2024-04-14,In Store
+CU0154,Liam Taylor,Loyal,NS,55+,2022-01-21,Email
+CU0155,Jacob Clark,Active,QC,35-44,2024-05-01,In Store
+CU0156,Ava Hall,Loyal,AB,45-54,2023-05-09,Email
+CU0157,Lucas Patel,Active,QC,45-54,2022-04-03,In Store
+CU0158,Olivia Wilson,Active,ON,25-34,2022-12-04,Email
+CU0159,Mia Clark,At Risk,ON,18-24,2022-05-02,Organic Search
+CU0160,Logan Hall,Active,AB,25-34,2023-10-22,In Store
+CU0161,Lucas Singh,New,BC,45-54,2023-04-29,Organic Search
+CU0162,Logan Moore,New,QC,25-34,2024-12-29,Email
+CU0163,Ella Garcia,Active,ON,35-44,2024-02-05,Email
+CU0164,Liam Singh,Loyal,NS,35-44,2022-07-05,Email
+CU0165,Mason Brown,New,NB,45-54,2022-07-23,Referral
+CU0166,Mason Patel,New,BC,25-34,2023-10-29,In Store
+CU0167,Jacob Wilson,At Risk,ON,18-24,2023-09-27,Email
+CU0168,Mia Lee,At Risk,ON,35-44,2024-03-11,Paid Social
+CU0169,Logan Clark,At Risk,QC,25-34,2023-04-22,Organic Search
+CU0170,Jacob Moore,New,QC,45-54,2024-02-07,Email
+CU0171,Mason Wilson,Active,NS,35-44,2024-10-25,Organic Search
+CU0172,Noah Thomas,New,BC,25-34,2022-03-01,Referral
+CU0173,Owen Martin,At Risk,AB,25-34,2022-08-24,Referral
+CU0174,Chloe Garcia,Active,ON,35-44,2022-06-01,Paid Social
+CU0175,Noah Clark,New,ON,45-54,2022-05-11,In Store
+CU0176,Noah Hall,Active,BC,45-54,2023-04-02,Referral
+CU0177,Isla Thomas,New,AB,45-54,2024-11-06,Referral
+CU0178,Ella Hall,Loyal,QC,35-44,2022-08-02,Paid Social
+CU0179,Jacob Wilson,Active,ON,35-44,2023-02-11,In Store
+CU0180,Leo Hall,Active,QC,25-34,2022-01-27,In Store
+CU0181,Ethan Young,Active,BC,25-34,2022-07-04,Email
+CU0182,Aria Martin,At Risk,ON,55+,2022-12-25,Organic Search
+CU0183,Liam Taylor,Loyal,QC,35-44,2024-07-21,Email
+CU0184,Henry Singh,New,PE,25-34,2023-05-08,Email
+CU0185,Amelia Patel,Loyal,BC,35-44,2023-07-30,Referral
+CU0186,Lucas Moore,New,BC,25-34,2023-11-28,In Store
+CU0187,Henry Moore,Loyal,NB,45-54,2023-09-27,Paid Social
+CU0188,Grace Lee,Loyal,ON,45-54,2022-10-22,In Store
+CU0189,Leo Garcia,Active,ON,35-44,2023-07-20,Organic Search
+CU0190,Mason Moore,Active,AB,25-34,2023-01-03,Organic Search
+CU0191,Amelia Wilson,Active,BC,35-44,2023-01-29,In Store
+CU0192,Leo Thomas,New,ON,35-44,2022-11-24,In Store
+CU0193,Isla Singh,At Risk,ON,18-24,2023-05-24,Email
+CU0194,Mason Anderson,Active,AB,25-34,2024-04-08,Paid Social
+CU0195,Lucas Martin,Active,ON,35-44,2024-08-18,Paid Social
+CU0196,Grace Moore,Active,ON,35-44,2022-05-30,Email
+CU0197,Ella Lee,At Risk,BC,25-34,2024-01-07,Referral
+CU0198,Noah Hall,New,ON,25-34,2024-02-05,Email
+CU0199,Leo Clark,Active,AB,25-34,2023-06-14,Paid Social
+CU0200,Olivia Thomas,New,ON,35-44,2024-09-05,Paid Social
+CU0201,Chloe Young,Active,NS,55+,2024-06-27,In Store
+CU0202,Noah Young,Active,ON,55+,2022-07-04,Email
+CU0203,Owen Thomas,Active,ON,25-34,2023-02-18,Organic Search
+CU0204,Ava Walker,Active,QC,45-54,2022-12-18,Referral
+CU0205,Ella Taylor,Active,QC,45-54,2022-01-28,Paid Social
+CU0206,Owen Martin,New,QC,18-24,2024-05-17,Organic Search
+CU0207,Olivia Garcia,Loyal,QC,25-34,2022-07-17,Paid Social
+CU0208,Aria Hall,Active,ON,45-54,2024-03-05,In Store
+CU0209,Grace Brown,Active,ON,35-44,2022-01-10,In Store
+CU0210,Mason Thomas,Active,PE,18-24,2023-06-09,Organic Search
+CU0211,Ava Thomas,New,QC,45-54,2022-05-31,Paid Social
+CU0212,Mia Young,New,ON,18-24,2023-02-09,Referral
+CU0213,Ella Patel,Loyal,BC,25-34,2023-07-27,Referral
+CU0214,Liam Singh,Loyal,ON,25-34,2022-04-13,Referral
+CU0215,Leo Martin,Active,ON,18-24,2023-04-23,Organic Search
+CU0216,Ava Walker,Loyal,QC,25-34,2022-10-12,Paid Social
+CU0217,Isla Hall,New,BC,35-44,2024-07-04,Referral
+CU0218,Ava Young,Active,ON,35-44,2022-08-26,Paid Social
+CU0219,Henry Thomas,Active,ON,35-44,2023-01-25,Paid Social
+CU0220,Owen Singh,Loyal,AB,25-34,2023-07-06,Referral
+CU0221,Owen Thomas,New,ON,35-44,2024-07-03,Organic Search
+CU0222,Logan Walker,Active,AB,45-54,2022-10-27,Organic Search
+CU0223,Ava Clark,At Risk,ON,45-54,2022-10-11,In Store
+CU0224,Mia Young,Active,AB,45-54,2023-12-24,In Store
+CU0225,Olivia Young,Loyal,QC,18-24,2022-10-29,In Store
+CU0226,Ethan Young,New,QC,18-24,2023-09-23,Referral
+CU0227,Henry Thomas,Loyal,QC,18-24,2023-11-30,Paid Social
+CU0228,Isla Anderson,Active,ON,45-54,2024-03-27,In Store
+CU0229,Grace Patel,At Risk,PE,35-44,2022-03-13,In Store
+CU0230,Sophia Lee,New,ON,45-54,2022-04-11,Referral
+CU0231,Amelia Hall,At Risk,ON,18-24,2024-02-22,Paid Social
+CU0232,Mason Young,Loyal,AB,45-54,2024-06-23,Referral
+CU0233,Mia Lee,New,ON,25-34,2024-01-06,Email
+CU0234,Logan Young,New,AB,25-34,2024-11-21,Email
+CU0235,Isla Chen,Loyal,NS,45-54,2022-12-17,Organic Search
+CU0236,Isla Taylor,New,BC,35-44,2023-02-05,Referral
+CU0237,Mia Patel,Loyal,ON,25-34,2022-02-04,Referral
+CU0238,Leo Moore,Active,NB,35-44,2022-04-23,Email
+CU0239,Olivia Thomas,Active,ON,45-54,2022-02-13,Paid Social
+CU0240,Mia Martin,New,BC,55+,2024-03-25,Organic Search
+CU0241,Lucas Patel,Active,AB,25-34,2023-09-04,Email
+CU0242,Sophia Moore,Active,BC,35-44,2023-02-10,Organic Search
+CU0243,Owen Lee,Active,QC,25-34,2024-08-01,Referral
+CU0244,Ella Young,New,QC,45-54,2023-11-27,Referral
+CU0245,Henry Walker,Active,BC,35-44,2022-04-30,Organic Search
+CU0246,Grace Brown,Active,ON,25-34,2022-07-17,Paid Social
+CU0247,Liam Patel,New,ON,25-34,2024-06-05,Organic Search
+CU0248,Logan Wilson,Active,ON,25-34,2022-06-08,Paid Social
+CU0249,Mia Young,New,AB,45-54,2022-02-05,Referral
+CU0250,Ella Chen,Active,ON,55+,2023-08-17,Paid Social
+CU0251,Jacob Walker,Loyal,BC,25-34,2022-11-19,In Store
+CU0252,Ava Martin,At Risk,NS,45-54,2024-09-09,Referral
+CU0253,Grace Thomas,New,ON,18-24,2023-11-24,Email
+CU0254,Mason Anderson,Active,BC,25-34,2024-07-20,Referral
+CU0255,Isla Martin,New,ON,45-54,2022-07-07,In Store
+CU0256,Ella Walker,New,ON,25-34,2023-06-13,Paid Social
+CU0257,Noah Moore,At Risk,BC,45-54,2024-01-25,Referral
+CU0258,Ethan Moore,Loyal,AB,25-34,2024-12-05,In Store
+CU0259,Sophia Chen,At Risk,QC,25-34,2024-03-15,Organic Search
+CU0260,Liam Young,Active,QC,55+,2024-11-01,Email
+CU0261,Liam Clark,Active,QC,35-44,2024-08-04,Organic Search
+CU0262,Grace Moore,Loyal,AB,25-34,2023-04-25,Organic Search
+CU0263,Noah Walker,Loyal,AB,18-24,2022-05-30,Email
+CU0264,Olivia Moore,New,NS,35-44,2022-09-01,Organic Search
+CU0265,Owen Hall,Loyal,QC,25-34,2022-05-14,Organic Search
+CU0266,Lucas Brown,Active,ON,25-34,2024-02-29,Email
+CU0267,Ella Young,Active,BC,55+,2024-11-19,Email
+CU0268,Aria Clark,Active,AB,25-34,2024-02-27,Referral
+CU0269,Aria Anderson,Active,NB,25-34,2023-07-27,In Store
+CU0270,Isla Singh,New,ON,55+,2022-01-27,Referral
+CU0271,Olivia Patel,Active,ON,18-24,2024-10-29,In Store
+CU0272,Ethan Taylor,Active,ON,25-34,2023-04-22,Email
+CU0273,Ella Patel,New,ON,35-44,2024-12-09,Organic Search
+CU0274,Mia Wilson,Loyal,QC,35-44,2024-12-21,Referral
+CU0275,Aria Martin,Loyal,ON,45-54,2022-03-03,Referral
+CU0276,Mason Moore,Active,ON,35-44,2022-12-04,In Store
+CU0277,Sophia Young,New,QC,18-24,2024-08-16,Organic Search
+CU0278,Mason Martin,Active,QC,25-34,2022-08-29,Email
+CU0279,Ella Thomas,Loyal,ON,55+,2023-05-31,Referral
+CU0280,Owen Hall,Active,BC,35-44,2024-02-20,In Store
+CU0281,Owen Moore,New,ON,45-54,2023-10-13,Referral
+CU0282,Mia Chen,Active,BC,45-54,2023-10-15,Referral
+CU0283,Henry Martin,New,PE,25-34,2022-04-19,Email
+CU0284,Owen Lee,New,ON,45-54,2022-10-23,Organic Search
+CU0285,Amelia Young,Active,ON,25-34,2023-03-05,Referral
+CU0286,Grace Clark,Loyal,ON,18-24,2024-03-31,Organic Search
+CU0287,Henry Clark,Active,NS,55+,2024-03-04,Referral
+CU0288,Chloe Thomas,Active,BC,25-34,2023-03-10,Email
+CU0289,Chloe Martin,At Risk,QC,35-44,2022-06-22,Referral
+CU0290,Jacob Wilson,Active,BC,45-54,2022-07-16,Email
+CU0291,Logan Taylor,New,BC,25-34,2024-10-25,Email
+CU0292,Mason Taylor,New,BC,25-34,2022-10-17,Email
+CU0293,Noah Singh,New,BC,35-44,2024-11-19,In Store
+CU0294,Leo Young,Active,NS,35-44,2024-07-15,Email
+CU0295,Owen Walker,Active,BC,35-44,2023-02-24,Paid Social
+CU0296,Amelia Chen,Active,NS,45-54,2022-04-24,Referral
+CU0297,Ella Thomas,Active,NB,18-24,2023-06-12,Paid Social
+CU0298,Sophia Clark,New,AB,35-44,2022-10-28,Organic Search
+CU0299,Chloe Taylor,Active,AB,45-54,2022-01-18,Paid Social
+CU0300,Liam Martin,New,ON,45-54,2024-12-22,Referral
+CU0301,Ava Singh,New,QC,25-34,2024-01-09,Organic Search
+CU0302,Henry Chen,Active,ON,25-34,2023-05-23,Referral
+CU0303,Liam Wilson,New,AB,25-34,2023-03-16,In Store
+CU0304,Mason Lee,New,BC,55+,2023-10-08,Email
+CU0305,Grace Wilson,Active,ON,18-24,2022-11-25,Referral
+CU0306,Aria Thomas,At Risk,AB,55+,2022-06-29,Organic Search
+CU0307,Jacob Chen,Loyal,ON,45-54,2022-09-30,Referral
+CU0308,Amelia Young,Loyal,BC,55+,2023-05-14,In Store
+CU0309,Grace Lee,New,AB,45-54,2022-06-22,Paid Social
+CU0310,Isla Brown,Loyal,QC,45-54,2022-11-18,In Store
+CU0311,Lucas Wilson,At Risk,AB,45-54,2024-01-18,Referral
+CU0312,Leo Chen,Loyal,AB,25-34,2024-09-13,Organic Search
+CU0313,Amelia Wilson,Active,NB,55+,2022-06-06,Organic Search
+CU0314,Chloe Brown,Loyal,ON,25-34,2023-09-10,In Store
+CU0315,Sophia Patel,Loyal,ON,25-34,2024-12-19,In Store
+CU0316,Ella Garcia,New,ON,35-44,2023-07-26,In Store
+CU0317,Olivia Hall,Loyal,ON,45-54,2023-06-16,Organic Search
+CU0318,Ella Garcia,At Risk,QC,35-44,2023-10-22,Organic Search
+CU0319,Jacob Martin,Active,AB,55+,2024-06-08,Organic Search
+CU0320,Liam Wilson,Active,QC,45-54,2024-07-23,Email
+CU0321,Mason Anderson,Active,NS,25-34,2024-04-28,Referral
+CU0322,Amelia Young,Loyal,ON,18-24,2022-05-01,Organic Search
+CU0323,Leo Wilson,Active,AB,55+,2022-02-10,Referral
+CU0324,Ava Walker,Active,ON,55+,2024-06-04,Organic Search
+CU0325,Liam Moore,New,ON,45-54,2023-12-05,Email
+CU0326,Henry Chen,Loyal,BC,25-34,2024-08-17,Paid Social
+CU0327,Chloe Garcia,Loyal,ON,18-24,2024-07-20,Organic Search
+CU0328,Olivia Brown,Active,QC,35-44,2024-06-17,In Store
+CU0329,Mason Patel,Active,AB,55+,2022-07-30,Organic Search
+CU0330,Logan Thomas,At Risk,AB,25-34,2023-12-26,In Store
+CU0331,Mason Hall,New,AB,25-34,2024-02-15,Paid Social
+CU0332,Chloe Clark,Active,ON,18-24,2024-08-14,Paid Social
+CU0333,Ethan Martin,New,ON,55+,2023-09-02,Organic Search
+CU0334,Mason Taylor,New,BC,18-24,2022-11-06,Email
+CU0335,Amelia Moore,At Risk,NS,18-24,2022-07-27,Referral
+CU0336,Mia Martin,Active,ON,45-54,2024-06-25,Referral
+CU0337,Amelia Wilson,At Risk,BC,45-54,2022-07-16,Email
+CU0338,Ethan Thomas,Active,ON,25-34,2023-04-01,Referral
+CU0339,Henry Young,Active,ON,45-54,2024-12-12,In Store
+CU0340,Noah Hall,Loyal,ON,18-24,2024-03-02,Referral
+CU0341,Aria Anderson,Active,ON,35-44,2024-01-21,In Store
+CU0342,Lucas Brown,Active,NS,45-54,2024-10-24,Email
+CU0343,Sophia Clark,New,ON,25-34,2023-06-07,Organic Search
+CU0344,Isla Patel,Active,AB,25-34,2024-11-30,Referral
+CU0345,Leo Clark,Active,QC,55+,2023-04-28,Referral
+CU0346,Ava Singh,New,QC,25-34,2024-07-06,Organic Search
+CU0347,Aria Hall,At Risk,BC,35-44,2024-02-08,Email
+CU0348,Mason Anderson,Active,AB,25-34,2023-11-20,Organic Search
+CU0349,Liam Garcia,Active,ON,35-44,2022-07-13,Paid Social
+CU0350,Ella Martin,Active,ON,25-34,2024-12-27,Organic Search
+CU0351,Amelia Young,Active,BC,35-44,2023-10-13,Organic Search
+CU0352,Mia Clark,New,QC,55+,2022-06-03,Referral
+CU0353,Amelia Lee,New,ON,25-34,2022-10-29,Referral
+CU0354,Ethan Clark,New,ON,25-34,2023-03-12,Referral
+CU0355,Mason Singh,Active,QC,45-54,2024-06-27,In Store
+CU0356,Mia Hall,New,BC,45-54,2022-10-13,Referral
+CU0357,Owen Young,Active,QC,45-54,2023-09-26,Organic Search
+CU0358,Logan Lee,Active,AB,35-44,2023-08-15,Organic Search
+CU0359,Olivia Young,Active,NB,55+,2024-02-08,Referral
+CU0360,Mason Singh,Loyal,QC,55+,2022-02-25,Email
+CU0361,Olivia Hall,Active,ON,35-44,2024-07-01,Organic Search
+CU0362,Olivia Martin,New,AB,35-44,2022-05-18,Organic Search
+CU0363,Sophia Hall,Active,BC,55+,2024-05-07,In Store
+CU0364,Noah Singh,At Risk,ON,25-34,2022-05-20,Organic Search
+CU0365,Jacob Chen,Active,ON,35-44,2022-05-19,Paid Social
+CU0366,Grace Singh,New,AB,25-34,2022-11-19,Referral
+CU0367,Jacob Singh,New,QC,35-44,2023-01-20,In Store
+CU0368,Jacob Moore,New,PE,45-54,2023-10-17,Email
+CU0369,Ella Patel,New,ON,18-24,2024-10-09,Organic Search
+CU0370,Logan Singh,New,ON,25-34,2024-12-05,Organic Search
+CU0371,Ella Lee,Active,BC,35-44,2024-06-15,Paid Social
+CU0372,Ava Anderson,New,AB,25-34,2022-12-31,Referral
+CU0373,Ella Moore,Active,NS,35-44,2023-09-25,In Store
+CU0374,Owen Wilson,At Risk,ON,45-54,2022-06-08,Organic Search
+CU0375,Ava Young,Loyal,AB,25-34,2023-12-12,Organic Search
+CU0376,Leo Wilson,New,AB,45-54,2023-07-23,Paid Social
+CU0377,Isla Lee,Loyal,PE,35-44,2023-03-02,Referral
+CU0378,Ella Martin,Active,QC,45-54,2022-01-11,Organic Search
+CU0379,Isla Brown,Active,QC,35-44,2023-06-16,Email
+CU0380,Grace Chen,Active,PE,25-34,2023-12-10,Organic Search
+CU0381,Noah Chen,Loyal,ON,25-34,2023-11-10,Paid Social
+CU0382,Owen Thomas,Active,AB,25-34,2023-06-03,Organic Search
+CU0383,Ethan Chen,Active,BC,35-44,2023-06-24,Email
+CU0384,Logan Hall,New,ON,45-54,2023-02-07,Referral
+CU0385,Liam Anderson,Active,BC,18-24,2022-02-05,Organic Search
+CU0386,Aria Anderson,At Risk,NS,18-24,2023-02-12,Paid Social
+CU0387,Aria Thomas,Active,PE,25-34,2022-05-27,In Store
+CU0388,Ella Anderson,At Risk,ON,25-34,2024-08-26,In Store
+CU0389,Mason Singh,At Risk,QC,25-34,2024-07-03,Paid Social
+CU0390,Chloe Singh,New,ON,35-44,2022-12-01,Organic Search
+CU0391,Amelia Chen,New,BC,55+,2024-08-06,Email
+CU0392,Olivia Lee,Active,QC,18-24,2024-05-26,Paid Social
+CU0393,Lucas Patel,New,BC,45-54,2022-05-23,Paid Social
+CU0394,Noah Anderson,Loyal,ON,45-54,2022-05-01,Email
+CU0395,Mia Wilson,New,NS,18-24,2023-06-30,Paid Social
+CU0396,Mason Walker,Loyal,ON,35-44,2023-10-18,Organic Search
+CU0397,Henry Taylor,New,QC,45-54,2022-09-15,Paid Social
+CU0398,Ella Martin,Active,BC,25-34,2022-10-19,Paid Social
+CU0399,Henry Patel,At Risk,AB,55+,2022-07-30,In Store
+CU0400,Noah Moore,New,QC,35-44,2022-07-10,Paid Social
+CU0401,Leo Garcia,Loyal,ON,35-44,2023-06-10,Email
+CU0402,Noah Wilson,Loyal,ON,25-34,2024-05-04,Referral
+CU0403,Henry Taylor,New,ON,25-34,2022-12-30,Email
+CU0404,Ava Martin,At Risk,NS,18-24,2022-04-05,Referral
+CU0405,Mason Lee,Active,ON,35-44,2023-01-12,Referral
+CU0406,Mason Moore,Active,ON,35-44,2023-01-24,Organic Search
+CU0407,Leo Anderson,New,BC,35-44,2024-04-12,In Store
+CU0408,Ella Garcia,New,ON,45-54,2023-05-21,Organic Search
+CU0409,Henry Wilson,Loyal,ON,25-34,2022-02-03,Organic Search
+CU0410,Liam Wilson,New,NS,35-44,2024-08-16,In Store
+CU0411,Isla Lee,New,BC,45-54,2022-04-28,Paid Social
+CU0412,Ethan Walker,Active,AB,45-54,2024-02-15,Email
+CU0413,Lucas Garcia,Loyal,ON,25-34,2024-07-30,Email
+CU0414,Ethan Brown,Active,ON,55+,2023-07-31,Organic Search
+CU0415,Grace Clark,Active,AB,35-44,2022-08-08,Organic Search
+CU0416,Jacob Lee,New,AB,35-44,2023-06-05,Paid Social
+CU0417,Sophia Hall,Active,BC,18-24,2022-03-11,In Store
+CU0418,Grace Singh,Loyal,BC,35-44,2022-03-17,Email
+CU0419,Liam Taylor,Loyal,ON,18-24,2024-05-08,Organic Search
+CU0420,Sophia Chen,Active,NS,25-34,2023-07-23,Organic Search
+CU0421,Grace Garcia,Active,ON,18-24,2024-08-08,In Store
+CU0422,Ella Patel,Loyal,QC,25-34,2022-04-09,Organic Search
+CU0423,Olivia Martin,Active,NS,35-44,2022-02-10,Referral
+CU0424,Noah Patel,At Risk,AB,55+,2023-03-19,Email
+CU0425,Jacob Brown,Active,QC,45-54,2024-10-31,Email
+CU0426,Lucas Martin,New,ON,35-44,2022-10-17,Organic Search
+CU0427,Liam Anderson,Active,ON,18-24,2023-11-20,Email
+CU0428,Liam Anderson,At Risk,BC,25-34,2022-08-17,In Store
+CU0429,Mason Taylor,Active,NS,25-34,2023-11-12,Organic Search
+CU0430,Noah Brown,Active,BC,35-44,2024-10-02,Organic Search
+CU0431,Mason Thomas,At Risk,ON,18-24,2022-11-11,Paid Social
+CU0432,Owen Clark,Active,ON,25-34,2023-12-25,Organic Search
+CU0433,Olivia Singh,At Risk,ON,25-34,2023-04-19,Paid Social
+CU0434,Noah Lee,Loyal,ON,25-34,2023-05-21,Organic Search
+CU0435,Grace Wilson,New,ON,35-44,2022-05-03,Organic Search
+CU0436,Grace Thomas,Active,AB,18-24,2023-02-01,Paid Social
+CU0437,Amelia Moore,New,BC,45-54,2024-08-26,Organic Search
+CU0438,Mia Taylor,Loyal,QC,35-44,2023-05-24,Referral
+CU0439,Ella Anderson,Loyal,ON,35-44,2022-05-31,Referral
+CU0440,Henry Thomas,Active,NS,35-44,2022-02-22,Referral
+CU0441,Amelia Wilson,Loyal,BC,18-24,2023-08-25,Organic Search
+CU0442,Jacob Patel,Loyal,NB,25-34,2023-04-22,Email
+CU0443,Owen Walker,New,ON,35-44,2024-07-19,Organic Search
+CU0444,Owen Patel,Loyal,QC,35-44,2022-01-28,Paid Social
+CU0445,Henry Wilson,Active,BC,45-54,2024-06-29,Organic Search
+CU0446,Aria Singh,New,ON,55+,2023-10-21,In Store
+CU0447,Ava Thomas,New,NB,35-44,2024-01-07,In Store
+CU0448,Owen Hall,Active,ON,35-44,2022-09-11,Paid Social
+CU0449,Aria Hall,New,QC,45-54,2022-01-27,In Store
+CU0450,Amelia Martin,Loyal,NS,45-54,2022-09-04,Referral
+CU0451,Mason Wilson,Active,ON,25-34,2023-11-18,Referral
+CU0452,Mia Thomas,Active,BC,25-34,2023-10-01,Paid Social
+CU0453,Ethan Moore,Active,ON,45-54,2023-07-24,Organic Search
+CU0454,Owen Clark,Active,AB,25-34,2022-10-21,In Store
+CU0455,Henry Taylor,New,AB,18-24,2024-01-09,In Store
+CU0456,Chloe Walker,Loyal,ON,45-54,2023-07-28,Organic Search
+CU0457,Lucas Martin,New,ON,45-54,2022-11-04,Referral
+CU0458,Jacob Clark,Active,ON,25-34,2023-04-24,Paid Social
+CU0459,Noah Brown,Loyal,ON,45-54,2023-05-24,Organic Search
+CU0460,Grace Wilson,Loyal,BC,25-34,2024-11-16,Email
+CU0461,Leo Hall,Loyal,BC,18-24,2024-10-01,Referral
+CU0462,Logan Martin,New,AB,18-24,2024-10-07,In Store
+CU0463,Leo Clark,Active,NB,55+,2023-06-03,Email
+CU0464,Owen Anderson,Active,AB,45-54,2024-12-20,Organic Search
+CU0465,Jacob Lee,New,QC,25-34,2022-01-07,Email
+CU0466,Logan Moore,At Risk,NB,25-34,2023-01-29,In Store
+CU0467,Henry Wilson,New,AB,45-54,2024-04-18,Organic Search
+CU0468,Henry Chen,Loyal,QC,25-34,2022-05-11,Organic Search
+CU0469,Grace Lee,New,BC,18-24,2023-06-21,Organic Search
+CU0470,Ella Patel,Active,QC,45-54,2024-06-19,Email
+CU0471,Ella Young,Active,AB,25-34,2024-08-13,Referral
+CU0472,Olivia Moore,New,ON,55+,2024-07-26,Organic Search
+CU0473,Logan Taylor,Loyal,AB,45-54,2022-10-23,Organic Search
+CU0474,Ethan Taylor,New,QC,45-54,2024-09-03,Paid Social
+CU0475,Isla Lee,New,NS,45-54,2023-07-14,Referral
+CU0476,Noah Patel,Loyal,QC,55+,2024-08-27,In Store
+CU0477,Chloe Anderson,At Risk,AB,18-24,2023-02-01,In Store
+CU0478,Noah Patel,New,QC,55+,2022-04-19,Paid Social
+CU0479,Sophia Walker,Active,BC,35-44,2022-05-24,Paid Social
+CU0480,Logan Young,Loyal,BC,35-44,2022-09-11,Email
+CU0481,Amelia Garcia,New,QC,45-54,2022-08-19,In Store
+CU0482,Logan Moore,Active,QC,45-54,2022-11-06,Paid Social
+CU0483,Noah Moore,New,ON,35-44,2023-08-01,Organic Search
+CU0484,Isla Thomas,Loyal,AB,35-44,2022-03-21,Email
+CU0485,Isla Hall,New,ON,55+,2022-02-03,Paid Social
+CU0486,Amelia Garcia,Active,NS,18-24,2023-12-28,Organic Search
+CU0487,Grace Wilson,At Risk,NS,35-44,2022-01-05,Referral
+CU0488,Mason Singh,Loyal,BC,25-34,2022-06-15,Referral
+CU0489,Henry Clark,Active,QC,35-44,2022-11-06,Referral
+CU0490,Leo Garcia,New,ON,25-34,2024-01-20,Referral
+CU0491,Olivia Lee,Active,ON,45-54,2024-06-06,Email
+CU0492,Jacob Lee,Active,NS,45-54,2024-10-14,Paid Social
+CU0493,Liam Young,Active,ON,45-54,2023-12-06,Email
+CU0494,Isla Lee,Active,ON,45-54,2024-09-20,Paid Social
+CU0495,Chloe Brown,New,ON,55+,2024-07-26,In Store
+CU0496,Ethan Lee,Active,QC,25-34,2024-10-07,In Store
+CU0497,Jacob Anderson,Active,ON,45-54,2022-03-19,Referral
+CU0498,Liam Moore,Loyal,QC,35-44,2023-07-22,Organic Search
+CU0499,Isla Lee,Loyal,NS,35-44,2024-09-28,Organic Search
+CU0500,Logan Garcia,Active,NS,25-34,2024-09-03,Email
+CU0501,Mia Young,Active,QC,35-44,2024-07-10,Organic Search
+CU0502,Noah Taylor,Active,ON,35-44,2022-09-10,In Store
+CU0503,Grace Clark,At Risk,PE,35-44,2024-06-23,Organic Search
+CU0504,Liam Garcia,New,ON,25-34,2024-05-13,Paid Social
+CU0505,Mia Walker,New,NB,25-34,2023-12-20,In Store
+CU0506,Ava Martin,Active,BC,18-24,2023-12-13,Organic Search
+CU0507,Mason Brown,Active,NS,25-34,2023-03-19,In Store
+CU0508,Henry Lee,Active,ON,35-44,2023-12-22,Email
+CU0509,Aria Clark,New,AB,35-44,2022-07-03,Organic Search
+CU0510,Noah Anderson,Loyal,ON,35-44,2023-02-12,Email
+CU0511,Ava Brown,Active,NB,55+,2022-03-09,Organic Search
+CU0512,Liam Clark,Loyal,ON,25-34,2024-09-12,Referral
+CU0513,Noah Hall,Active,QC,45-54,2023-09-06,In Store
+CU0514,Sophia Singh,At Risk,ON,35-44,2023-02-25,Referral
+CU0515,Aria Wilson,Loyal,AB,18-24,2023-02-05,Email
+CU0516,Grace Moore,Active,ON,45-54,2023-09-09,Organic Search
+CU0517,Ella Young,Active,ON,45-54,2022-01-27,Paid Social
+CU0518,Ava Hall,At Risk,ON,25-34,2023-09-01,Referral
+CU0519,Grace Anderson,Active,NS,35-44,2022-01-19,Organic Search
+CU0520,Ella Patel,Active,QC,25-34,2023-10-24,Referral
+CU0521,Leo Thomas,Active,AB,45-54,2022-09-16,Referral
+CU0522,Chloe Young,Active,AB,35-44,2022-10-15,Paid Social
+CU0523,Grace Brown,Active,BC,45-54,2024-12-18,Organic Search
+CU0524,Mason Taylor,New,BC,55+,2022-10-26,Email
+CU0525,Sophia Clark,Active,NS,35-44,2022-08-20,Organic Search
+CU0526,Isla Lee,New,BC,25-34,2023-05-10,Referral
+CU0527,Mia Wilson,New,ON,18-24,2024-05-31,Organic Search
+CU0528,Liam Hall,New,BC,18-24,2022-02-21,Referral
+CU0529,Amelia Clark,New,BC,45-54,2022-05-25,Organic Search
+CU0530,Mason Singh,Active,QC,35-44,2024-01-16,Email
+CU0531,Sophia Hall,New,QC,35-44,2022-08-04,In Store
+CU0532,Lucas Garcia,Active,NS,25-34,2024-05-19,Organic Search
+CU0533,Jacob Thomas,Loyal,ON,35-44,2022-01-15,Email
+CU0534,Ethan Chen,New,PE,35-44,2024-11-01,Organic Search
+CU0535,Aria Brown,Active,QC,55+,2023-11-10,Organic Search
+CU0536,Mason Wilson,Loyal,BC,45-54,2022-03-29,Referral
+CU0537,Ella Brown,Loyal,QC,45-54,2022-12-10,Referral
+CU0538,Olivia Clark,Loyal,ON,55+,2022-12-16,Referral
+CU0539,Aria Moore,Active,ON,55+,2023-01-27,Organic Search
+CU0540,Sophia Lee,At Risk,NS,35-44,2024-05-13,In Store
+CU0541,Sophia Singh,Active,ON,35-44,2024-07-25,In Store
+CU0542,Mia Martin,Active,ON,18-24,2024-03-05,Paid Social
+CU0543,Ella Chen,New,BC,55+,2022-08-28,Email
+CU0544,Jacob Hall,Active,QC,35-44,2023-06-20,Organic Search
+CU0545,Henry Chen,New,ON,25-34,2023-12-15,Referral
+CU0546,Mason Walker,Loyal,ON,35-44,2023-02-18,In Store
+CU0547,Amelia Garcia,Loyal,ON,55+,2022-02-10,Paid Social
+CU0548,Chloe Taylor,New,QC,35-44,2022-08-14,In Store
+CU0549,Henry Wilson,Active,PE,45-54,2023-07-23,Email
+CU0550,Noah Walker,Loyal,ON,45-54,2024-01-11,Email
+CU0551,Aria Martin,Loyal,AB,35-44,2023-05-30,Email
+CU0552,Amelia Taylor,New,ON,35-44,2023-08-04,Organic Search
+CU0553,Owen Chen,Loyal,NS,35-44,2023-09-12,Organic Search
+CU0554,Mia Anderson,Active,QC,25-34,2023-11-23,In Store
+CU0555,Logan Lee,New,ON,35-44,2024-07-03,Organic Search
+CU0556,Jacob Martin,Loyal,BC,35-44,2022-09-06,Organic Search
+CU0557,Olivia Chen,New,AB,55+,2024-10-08,Email
+CU0558,Mia Singh,Active,BC,25-34,2022-04-05,Paid Social
+CU0559,Mason Walker,Active,AB,35-44,2024-11-12,In Store
+CU0560,Amelia Young,At Risk,ON,45-54,2024-05-02,Referral
+CU0561,Mia Moore,Loyal,QC,55+,2023-01-07,Organic Search
+CU0562,Henry Walker,New,BC,25-34,2022-11-23,Organic Search
+CU0563,Aria Brown,Active,QC,35-44,2022-10-19,Referral
+CU0564,Grace Patel,At Risk,BC,35-44,2023-07-21,Organic Search
+CU0565,Olivia Patel,Active,BC,18-24,2023-05-25,Organic Search
+CU0566,Amelia Walker,New,ON,18-24,2024-01-09,Organic Search
+CU0567,Ella Lee,Loyal,ON,35-44,2023-12-06,Paid Social
+CU0568,Ava Young,Active,NS,25-34,2022-11-14,Paid Social
+CU0569,Sophia Martin,Active,NS,25-34,2024-12-18,In Store
+CU0570,Ella Patel,Active,QC,35-44,2024-02-18,Organic Search
+CU0571,Amelia Taylor,Active,QC,35-44,2024-02-23,Organic Search
+CU0572,Noah Brown,New,AB,25-34,2024-05-26,Referral
+CU0573,Henry Brown,Loyal,QC,55+,2024-10-07,Referral
+CU0574,Owen Lee,At Risk,BC,25-34,2023-04-06,Organic Search
+CU0575,Isla Garcia,New,ON,55+,2023-11-11,Paid Social
+CU0576,Logan Brown,Active,ON,35-44,2022-03-29,Referral
+CU0577,Liam Wilson,New,ON,35-44,2024-02-09,In Store
+CU0578,Olivia Moore,Active,QC,55+,2024-06-08,Paid Social
+CU0579,Isla Patel,Loyal,ON,45-54,2023-05-11,Organic Search
+CU0580,Mason Walker,Loyal,AB,35-44,2024-03-14,Email
+CU0581,Mason Martin,Loyal,QC,25-34,2024-10-08,In Store
+CU0582,Isla Patel,Loyal,ON,25-34,2022-08-19,Referral
+CU0583,Logan Anderson,Active,BC,35-44,2024-08-27,Referral
+CU0584,Henry Martin,Active,AB,25-34,2024-09-16,Organic Search
+CU0585,Aria Chen,Active,QC,35-44,2024-07-07,Paid Social
+CU0586,Ella Lee,New,NS,25-34,2023-05-15,Organic Search
+CU0587,Mia Hall,Active,PE,18-24,2024-02-08,Paid Social
+CU0588,Ella Garcia,Active,QC,18-24,2022-04-24,Organic Search
+CU0589,Leo Garcia,Active,AB,45-54,2024-12-03,In Store
+CU0590,Ethan Chen,Active,QC,25-34,2022-11-24,Organic Search
+CU0591,Liam Garcia,Loyal,BC,35-44,2022-08-18,Organic Search
+CU0592,Ava Hall,Active,QC,55+,2023-01-31,In Store
+CU0593,Amelia Moore,Loyal,PE,25-34,2023-06-11,Paid Social
+CU0594,Henry Wilson,Active,ON,55+,2023-07-25,Referral
+CU0595,Isla Patel,New,ON,35-44,2024-05-14,Paid Social
+CU0596,Mason Walker,New,AB,35-44,2022-12-31,Organic Search
+CU0597,Lucas Martin,Loyal,AB,18-24,2022-02-28,Organic Search
+CU0598,Isla Martin,New,AB,18-24,2023-09-27,Email
+CU0599,Logan Walker,New,NB,35-44,2022-02-28,Organic Search
+CU0600,Leo Clark,Loyal,AB,25-34,2022-12-05,Paid Social
+CU0601,Grace Patel,Loyal,BC,25-34,2023-09-14,Email
+CU0602,Isla Brown,At Risk,ON,45-54,2024-07-09,In Store
+CU0603,Sophia Singh,Active,NS,45-54,2023-01-08,Paid Social
+CU0604,Henry Brown,Loyal,QC,55+,2022-11-21,Email
+CU0605,Aria Hall,New,ON,45-54,2024-04-11,Referral
+CU0606,Isla Chen,At Risk,ON,45-54,2024-01-01,Email
+CU0607,Logan Thomas,Loyal,NS,55+,2023-08-26,Organic Search
+CU0608,Grace Chen,Active,BC,55+,2023-09-28,Paid Social
+CU0609,Ella Patel,Active,PE,25-34,2023-09-21,In Store
+CU0610,Mia Moore,New,BC,45-54,2024-10-29,Organic Search
+CU0611,Henry Clark,Loyal,QC,25-34,2023-08-12,Email
+CU0612,Olivia Thomas,Active,ON,35-44,2023-05-13,Email
+CU0613,Noah Clark,Active,AB,35-44,2022-02-10,Organic Search
+CU0614,Olivia Martin,Active,BC,25-34,2024-05-21,Referral
+CU0615,Amelia Martin,New,ON,25-34,2023-08-27,Organic Search
+CU0616,Lucas Moore,Active,ON,35-44,2022-01-31,Organic Search
+CU0617,Leo Clark,Active,ON,45-54,2024-04-13,Organic Search
+CU0618,Lucas Brown,Active,AB,45-54,2023-10-21,Paid Social
+CU0619,Leo Young,New,QC,25-34,2023-05-17,Email
+CU0620,Lucas Young,Active,NS,45-54,2022-11-18,Referral
+CU0621,Liam Young,Loyal,QC,45-54,2023-05-06,Referral
+CU0622,Logan Martin,New,ON,55+,2023-08-02,In Store
+CU0623,Lucas Singh,Active,NB,35-44,2024-03-14,Organic Search
+CU0624,Henry Anderson,Active,PE,55+,2024-08-10,In Store
+CU0625,Chloe Garcia,Active,BC,35-44,2024-12-16,In Store
+CU0626,Olivia Patel,Active,QC,35-44,2022-08-11,Paid Social
+CU0627,Owen Hall,New,ON,35-44,2023-05-12,Organic Search
+CU0628,Aria Thomas,Active,NS,25-34,2022-04-05,Paid Social
+CU0629,Ethan Brown,New,AB,18-24,2022-01-22,Referral
+CU0630,Ava Taylor,Loyal,QC,35-44,2022-10-29,Organic Search
+CU0631,Ethan Moore,Loyal,PE,35-44,2024-04-22,In Store
+CU0632,Aria Singh,New,ON,45-54,2023-01-22,Organic Search
+CU0633,Sophia Martin,At Risk,AB,35-44,2022-03-26,Organic Search
+CU0634,Logan Walker,New,ON,55+,2024-10-10,Referral
+CU0635,Ethan Lee,Loyal,NS,25-34,2023-10-25,Referral
+CU0636,Sophia Walker,Active,BC,25-34,2024-11-11,Referral
+CU0637,Mason Garcia,Loyal,AB,45-54,2023-12-06,Email
+CU0638,Leo Brown,Active,AB,35-44,2023-11-24,Organic Search
+CU0639,Owen Young,Active,BC,18-24,2023-09-03,In Store
+CU0640,Owen Patel,Active,QC,35-44,2024-03-07,Referral
+CU0641,Mason Hall,Loyal,ON,35-44,2024-04-16,Organic Search
+CU0642,Mason Walker,Loyal,QC,45-54,2024-03-03,Referral
+CU0643,Sophia Clark,Loyal,ON,18-24,2022-09-15,In Store
+CU0644,Chloe Chen,Active,ON,35-44,2022-10-06,Referral
+CU0645,Mia Taylor,Active,ON,55+,2022-02-21,Paid Social
+CU0646,Isla Garcia,Active,AB,45-54,2023-07-29,In Store
+CU0647,Leo Walker,Loyal,ON,35-44,2023-07-25,In Store
+CU0648,Ella Thomas,New,ON,55+,2023-08-08,In Store
+CU0649,Olivia Singh,New,PE,25-34,2022-07-18,Email
+CU0650,Jacob Anderson,Active,QC,45-54,2022-05-31,Paid Social
+CU0651,Liam Chen,Active,NS,35-44,2023-06-17,In Store
+CU0652,Mason Hall,New,QC,25-34,2022-10-20,Referral
+CU0653,Amelia Taylor,At Risk,BC,25-34,2022-12-14,Email
+CU0654,Owen Thomas,Active,AB,35-44,2022-07-01,Email
+CU0655,Isla Martin,Loyal,ON,25-34,2024-11-17,Referral
+CU0656,Liam Patel,Active,NS,35-44,2022-08-11,In Store
+CU0657,Amelia Singh,New,ON,45-54,2024-10-12,Organic Search
+CU0658,Ella Young,At Risk,NB,18-24,2024-09-17,Email
+CU0659,Lucas Singh,Active,PE,18-24,2024-11-13,In Store
+CU0660,Ava Chen,Loyal,BC,25-34,2022-08-14,Organic Search
+CU0661,Leo Singh,Loyal,BC,45-54,2024-12-30,Paid Social
+CU0662,Noah Young,Active,ON,25-34,2024-06-26,Paid Social
+CU0663,Grace Taylor,Active,AB,35-44,2023-06-08,In Store
+CU0664,Lucas Hall,New,QC,25-34,2024-11-24,Paid Social
+CU0665,Grace Anderson,Loyal,BC,55+,2024-01-21,Paid Social
+CU0666,Jacob Wilson,Active,AB,45-54,2023-03-01,Organic Search
+CU0667,Ava Moore,New,QC,18-24,2023-03-18,Organic Search
+CU0668,Grace Hall,Active,BC,25-34,2023-08-10,Referral
+CU0669,Mia Moore,New,BC,35-44,2024-03-27,Organic Search
+CU0670,Ethan Singh,Active,ON,35-44,2023-04-21,Paid Social
+CU0671,Amelia Young,New,QC,35-44,2023-05-18,Paid Social
+CU0672,Mason Anderson,Loyal,ON,18-24,2022-04-04,Referral
+CU0673,Mia Patel,At Risk,QC,25-34,2023-03-29,In Store
+CU0674,Mason Clark,Active,BC,25-34,2024-06-13,Organic Search
+CU0675,Amelia Chen,Active,ON,45-54,2023-07-07,In Store
+CU0676,Sophia Lee,Active,QC,35-44,2023-10-19,Paid Social
+CU0677,Leo Moore,Active,ON,55+,2023-08-09,Paid Social
+CU0678,Chloe Singh,Active,AB,18-24,2024-10-26,Organic Search
+CU0679,Liam Martin,Active,QC,18-24,2023-11-03,In Store
+CU0680,Owen Singh,New,QC,25-34,2023-02-22,In Store
+CU0681,Olivia Walker,Active,NS,25-34,2022-04-06,Email
+CU0682,Mia Moore,Active,ON,45-54,2023-01-06,Referral
+CU0683,Amelia Garcia,New,ON,55+,2024-01-23,Referral
+CU0684,Noah Anderson,Loyal,QC,18-24,2023-09-17,Organic Search
+CU0685,Ava Walker,Active,PE,25-34,2023-05-07,Referral
+CU0686,Mia Hall,Active,QC,45-54,2023-09-01,Email
+CU0687,Olivia Taylor,Active,QC,45-54,2023-10-06,Email
+CU0688,Noah Chen,Active,AB,55+,2022-04-10,Organic Search
+CU0689,Amelia Patel,Active,QC,25-34,2022-01-14,In Store
+CU0690,Ava Patel,Active,NB,25-34,2024-08-27,Paid Social
+CU0691,Mia Wilson,New,ON,55+,2022-01-18,In Store
+CU0692,Liam Clark,Loyal,NS,18-24,2024-01-31,Referral
+CU0693,Ethan Wilson,New,ON,35-44,2022-01-21,Paid Social
+CU0694,Lucas Moore,Loyal,ON,55+,2024-04-14,Referral
+CU0695,Henry Hall,Active,ON,55+,2023-11-23,Email
+CU0696,Ethan Taylor,Loyal,QC,35-44,2022-01-28,Referral
+CU0697,Ava Taylor,New,QC,35-44,2024-02-08,Organic Search
+CU0698,Grace Young,New,AB,25-34,2024-07-21,Referral
+CU0699,Ella Clark,New,QC,35-44,2022-06-04,Organic Search
+CU0700,Ella Singh,Active,NB,45-54,2024-08-14,Organic Search
+CU0701,Ella Lee,Loyal,NB,25-34,2022-05-19,Paid Social
+CU0702,Chloe Taylor,New,ON,45-54,2022-06-07,Referral
+CU0703,Grace Hall,At Risk,AB,18-24,2023-01-01,Organic Search
+CU0704,Leo Walker,Active,BC,35-44,2022-02-22,Paid Social
+CU0705,Liam Singh,New,BC,35-44,2022-11-30,Organic Search
+CU0706,Mia Singh,Active,NS,35-44,2023-09-30,In Store
+CU0707,Grace Young,New,BC,45-54,2022-12-14,Email
+CU0708,Ava Chen,Loyal,NB,35-44,2023-08-08,Referral
+CU0709,Henry Anderson,Active,QC,55+,2023-05-30,Referral
+CU0710,Ella Chen,Active,ON,45-54,2022-02-13,Email
+CU0711,Isla Patel,Active,BC,25-34,2023-03-29,Organic Search
+CU0712,Ava Thomas,New,BC,55+,2024-07-27,Paid Social
+CU0713,Jacob Young,New,BC,55+,2023-10-27,Organic Search
+CU0714,Noah Young,Active,QC,35-44,2024-01-14,Paid Social
+CU0715,Owen Young,New,BC,25-34,2023-06-04,Paid Social
+CU0716,Leo Patel,Loyal,AB,55+,2024-06-25,Organic Search
+CU0717,Owen Chen,Active,QC,45-54,2023-10-16,Organic Search
+CU0718,Logan Singh,Active,AB,25-34,2024-12-28,Organic Search
+CU0719,Ella Garcia,Loyal,BC,25-34,2023-09-26,Referral
+CU0720,Grace Martin,Active,NS,55+,2022-04-09,Organic Search

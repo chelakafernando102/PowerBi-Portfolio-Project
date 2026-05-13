@@ -1,0 +1,19 @@
+product_id,product_name,category,subcategory,list_price,unit_cost,launch_date,status
+P001,Trail Jacket,Apparel,Outerwear,129,56,2021-08-15,Active
+P002,Merino Base Layer,Apparel,Tops,74,28,2022-03-10,Active
+P003,Everyday Hoodie,Apparel,Tops,88,34,2021-08-15,Seasonal
+P004,Performance Jogger,Apparel,Bottoms,92,38,2022-03-10,Active
+P005,Packable Rain Shell,Apparel,Outerwear,149,66,2023-04-05,Active
+P006,Urban Backpack,Accessories,Bags,119,52,2023-04-05,Active
+P007,Travel Duffel,Accessories,Bags,138,61,2022-09-20,Active
+P008,Insulated Bottle,Accessories,Hydration,34,12,2022-03-10,Active
+P009,Trail Socks 3-Pack,Accessories,Basics,24,8,2021-02-01,Active
+P010,Running Cap,Accessories,Headwear,29,9,2023-04-05,Active
+P011,All-Weather Boot,Footwear,Footwear,168,74,2022-03-10,Active
+P012,City Sneaker,Footwear,Footwear,124,49,2022-03-10,Active
+P013,Hiking Shoe,Footwear,Footwear,146,63,2023-04-05,Active
+P014,Yoga Mat,Equipment,Training,58,21,2021-02-01,Active
+P015,Resistance Band Kit,Equipment,Training,39,13,2022-03-10,Seasonal
+P016,Compact Tent,Equipment,Camping,259,132,2021-02-01,Active
+P017,Sleeping Pad,Equipment,Camping,112,48,2023-04-05,Active
+P018,Camp Chair,Equipment,Camping,79,31,2022-09-20,Active
